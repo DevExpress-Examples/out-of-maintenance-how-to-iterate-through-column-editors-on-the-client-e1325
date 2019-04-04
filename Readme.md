@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Default.aspx](./CS/DisableColumnEditorsOnClient/Default.aspx) (VB: [Default.aspx.vb](./VB/DisableColumnEditorsOnClient/Default.aspx.vb))
+* [Default.aspx](./CS/DisableColumnEditorsOnClient/Default.aspx) (VB: [Default.aspx](./VB/DisableColumnEditorsOnClient/Default.aspx))
 * [Default.aspx.cs](./CS/DisableColumnEditorsOnClient/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/DisableColumnEditorsOnClient/Default.aspx.vb))
 <!-- default file list end -->
 # How to iterate through column editors on the client
