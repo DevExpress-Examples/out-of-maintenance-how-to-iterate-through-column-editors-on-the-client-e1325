@@ -37,7 +37,7 @@ Namespace DisableColumnEditorsOnClient
 			ASPxGridView1.CancelEdit()
 		End Sub
 
-		Protected Sub ASPxGridView1_CellEditorInitialize(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewEditorEventArgs)
+		Protected Sub ASPxGridView1_CellEditorInitialize(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewEditorEventArgs)
 			If e.Column.FieldName <> "Editable" Then
 				Dim editable As Boolean = CBool(ASPxGridView1.GetRowValues(e.VisibleIndex, "Editable"))
 				e.Editor.ClientEnabled = editable

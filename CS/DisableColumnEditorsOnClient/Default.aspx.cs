@@ -35,7 +35,7 @@ namespace DisableColumnEditorsOnClient {
             ASPxGridView1.CancelEdit();
         }
 
-        protected void ASPxGridView1_CellEditorInitialize(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewEditorEventArgs e) {
+        protected void ASPxGridView1_CellEditorInitialize(object sender, DevExpress.Web.ASPxGridViewEditorEventArgs e) {
             if(e.Column.FieldName != "Editable") {
                 bool editable = (bool)ASPxGridView1.GetRowValues(e.VisibleIndex, "Editable");
                 e.Editor.ClientEnabled = editable;
